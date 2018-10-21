@@ -30,30 +30,25 @@ freely, subject to the following restrictions:
 
 How To Import:
 
-from . import databases
-
-Or choose which functions via:
-
 import databases
-from databases import createdatabase, cleardatabase, writeto, readto, copytoclipboard, pastefromclipboard, clearclipboard, deleteitemofclipboard
 
 How to use functions:
 
-initdatabase()
-clearclipboard(1)
-deleteitemofclipboard(1)
-pastefromclipboard('test',1,'tester/','.json')
-copytoclipboard('test',';','tester/','.json')
-createdatabase('test','tester/','.json')
-cleardatabase('test','tester/','.json')
-writeto('test','Testing123',';','tester/','.json')
-readto('test',';','tester/','.json')
+databases.initdatabase()
+databases.clearclipboard(1)
+databases.deleteitemofclipboard(1)
+databases.pastefromclipboard('test',1,'tester/','.json')
+databases.copytoclipboard('test',';','tester/','.json')
+databases.createdatabase('test','tester/','.json')
+databases.cleardatabase('test','tester/','.json')
+databases.writeto('test','Testing123',';','tester/','.json')
+databases.readto('test',';','tester/','.json')
 
 How to use:
 
-Add databases.py to the same directary as your main .py file
-Then import the functions explained above
-Then use the functions also explained above
+- Add databases.py to the same directary as your main .py file
+- Import the module as explained above.
+- Use the functions also explained above
 
 '''
 
