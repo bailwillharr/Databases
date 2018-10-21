@@ -7,4 +7,4 @@ A simple python module that allows you to create databases which are saved to a 
   ```python3
   import databases
   ````
-* Read the wiki pages to see how to use the functions [here](about:blank).
+* Read the wiki pages to see how to use the functions [here](https://github.com/bailwillharr/databases/wiki).
