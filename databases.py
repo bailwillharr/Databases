@@ -248,8 +248,3 @@ def readto(name,key='\n',directory='',filetype='.txt'):
 
 if(__name__ == '__main__'):
     pass
-    
-
-
-
-    
